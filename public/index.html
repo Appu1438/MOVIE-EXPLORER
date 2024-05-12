@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Database Explorer</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="wrapper">
+
+        <h2>Movie Explorer</h2>
+        <div class="header">
+    
+        <input type="text" id="searchInput" placeholder="Search Movies...">
+        <select name="Filter" id="filter">
+            <option value="">Genre</option>
+            <option value="Action">Action</option>
+            <option value="Love">Crime</option>
+            <option value="Thriller">Thriller</option>
+            <option value="Romance">Romance</option>
+            <option value="Comedy">Comedy</option>
+            <option value="Drama">Drama</option>
+            <option value="Family">Family</option>
+            <option value="Horror">Horror</option>
+            <option value="Fantasy">Fantasy</option>
+            <option value="History">History</option>
+            <option value="War">War</option>
+            <option value="Music">Music</option>
+            <option value="Entertainment">Entertainment</option>
+        </select>
+
+        <select name="Filter" id="cast">
+            <option value="">Cast</option>
+            <option value="Mohanlal">Mohanlal</option>
+            <option value="Mammootty">Mammooty</option>
+            <option value="Dileep">Dileep</option>
+            <option value="Suriya">Suriya</option>
+            <option value="Vijay">Vijay</option>
+            <option value="Jayasurya">Jayasurya</option>
+            <option value="Prithviraj Sukumaran ">Prithviraj Sukumaran </option>
+            <option value="Jayaram">Jayaram</option>
+            <option value="Dulquer">Dulquer</option>
+            <option value="Tovino">Tovino</option>
+            
+        </select>
+        <!-- <button id="btn" >Search</button> -->
+      
+           
+        </div>
+     
+    </div>
+   
+    <!-- Add this modal container to your HTML -->
+<div id="movieDetailsModal" class="modal">
+      
+        <div id="movieModelimage"> </div>
+        <div id="movieDetailsContent"></div>
+        <span id="close" class="close" >&times;</span>
+</div>
+
+
+<div id="moviesContainer"></div>
+
+<div class="name">By Appu</div>
+
+</body>
+<script>
+   
+
+</script>
+</html>
